@@ -1,0 +1,48 @@
+For a list of commands type help. To get started with your first challenge type request.
+
+foobar:~/ guest$ help
+Use the following shell commands:
+
+cd	change directory [dir_name]
+cat	print file [file_name]
+deleteme	delete all of your data associated with foobar
+edit	open file in editor [file_name]
+feedback	provide feedback on foobar
+less	print a file a page at a time [file_name]
+ls	list directory contents [dir_name]
+request	request new challenge
+status	print progress
+submit	submit final solution file for assessment [file_name]
+verify	runs tests on solution file [file_name]
+
+Keyboard help:
+
+Ctrl + S	save the open file [when editor is focused]
+Ctrl + E	close the editor [when editor is focused]
+
+Toggle between the editor and terminal using ESC followed by TAB, then activate with ENTER.
+
+foobar:~/ guest$ request
+You are about to begin a time-limited challenge which you will have 48 hours to complete.
+If you do not have time for the challenge now, you may sign in to save your place and return later to request the challenge.
+Do you wish to proceed and start your first challenge?
+[Y]es or [N]o: yes
+Requesting challenge...
+Why did you sign up for infiltration duty again? The pamphlets from Bunny HQ promised exotic and interesting missions, yet here you are drudging in the lowest level of Commander Lambda's organization. Hopefully you get that promotion soon...
+New challenge "The cake is not a lie!" added to your home folder.
+Time to solve: 48 hours.
+foobar:~/ guest$ ls
+the-cake-is-not-a-lie
+journal.txt
+start_here.txt
+foobar:~/ guest$ cd The cake is not a lie
+cd: The cake is not a lie: No such file or directory
+foobar:~/ guest$ cd The cake is not a lie!
+cd: The cake is not a lie!: No such file or directory
+foobar:~/ guest$ cd the-cake-is-not-a-lie
+foobar:~/the-cake-is-not-a-lie guest$ ls
+Solution.java
+constraints.txt
+readme.txt
+solution.py
+foobar:~/the-cake-is-not-a-lie guest$ cat readme.txt
